@@ -105,7 +105,7 @@ function App() {
             <div className="hero-image">
               <div className="image-wrapper">
                 <div className="image-glow"></div>
-                <img src="/src/assets/profile.png" alt="Barani" className="profile-image" />
+                <img src={`${import.meta.env.BASE_URL}profile.png`} alt="Barani" className="profile-image" />
                 <div className="floating-card card-1">
                   <span className="card-icon">🔐</span>
                   <span className="card-text">Cyber Security</span>
