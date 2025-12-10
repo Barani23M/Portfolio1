@@ -589,11 +589,27 @@
   border-radius: 12px;
   text-align: center;
   border: 1px solid #e5e7eb;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.contact-card-link {
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.contact-card-link:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
 }
 
 @media (prefers-color-scheme: dark) {
   .contact-card {
     border: 1px solid #374151;
+  }
+  .contact-card-link:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
   }
 }
 

@@ -296,18 +296,18 @@ function App() {
               </p>
             </div>
             <div className="contact-grid">
-              <div className="contact-card">
+              <a href="mailto:jayambarani27@gmail.com" className="contact-card contact-card-link" onClick={(e) => { window.location.href = 'mailto:jayambarani27@gmail.com'; }}>
                 <div className="contact-icon">📧</div>
                 <h3>Email</h3>
-                <a href="mailto:jayambarani27@gmail.com" className="contact-email">jayambarani27@gmail.com</a>
-                <a href="mailto:jayambarani27@gmail.com" className="contact-link">Send a message →</a>
-              </div>
-              <div className="contact-card">
+                <p className="contact-email">jayambarani27@gmail.com</p>
+                <span className="contact-link">Send a message →</span>
+              </a>
+              <a href="https://wa.me/919489315805" target="_blank" rel="noopener noreferrer" className="contact-card contact-card-link">
                 <div className="contact-icon">📱</div>
                 <h3>WhatsApp</h3>
-                <a href="https://wa.me/919489315805" target="_blank" rel="noopener noreferrer" className="contact-email">+91 9489315805</a>
-                <a href="https://wa.me/919489315805" target="_blank" rel="noopener noreferrer" className="contact-link">Message on WhatsApp →</a>
-              </div>
+                <p className="contact-email">+91 9489315805</p>
+                <span className="contact-link">Message on WhatsApp →</span>
+              </a>
               <div className="contact-card">
                 <div className="contact-icon">📍</div>
                 <h3>Location</h3>
