@@ -299,14 +299,14 @@ function App() {
               <div className="contact-card">
                 <div className="contact-icon">📧</div>
                 <h3>Email</h3>
-                <p>jayambarani27@gmail.com</p>
+                <a href="mailto:jayambarani27@gmail.com" className="contact-email">jayambarani27@gmail.com</a>
                 <a href="mailto:jayambarani27@gmail.com" className="contact-link">Send a message →</a>
               </div>
               <div className="contact-card">
                 <div className="contact-icon">📱</div>
-                <h3>Phone</h3>
-                <p>+91 9489315805</p>
-                <a href="tel:+919489315805" className="contact-link">Give me a call →</a>
+                <h3>WhatsApp</h3>
+                <a href="https://wa.me/919489315805" target="_blank" rel="noopener noreferrer" className="contact-email">+91 9489315805</a>
+                <a href="https://wa.me/919489315805" target="_blank" rel="noopener noreferrer" className="contact-link">Message on WhatsApp →</a>
               </div>
               <div className="contact-card">
                 <div className="contact-icon">📍</div>

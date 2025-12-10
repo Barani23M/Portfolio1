@@ -613,10 +613,29 @@
   margin-bottom: 0.75rem;
 }
 
+.contact-email {
+  color: var(--text-color);
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+  display: block;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.contact-email:hover {
+  color: var(--primary-color);
+}
+
 .contact-link {
   color: var(--primary-color);
   font-weight: 500;
   font-size: 0.9rem;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.contact-link:hover {
+  opacity: 0.8;
 }
 
 .cta-section {
